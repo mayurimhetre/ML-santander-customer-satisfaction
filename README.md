@@ -1,7 +1,7 @@
 # ML-santander-customer-satisfaction
 
 
-PCA - 2 componets:
+PCA - 2 components:
 
 Random Forest Classifier Used:
 
