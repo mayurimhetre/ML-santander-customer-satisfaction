@@ -31,7 +31,7 @@ Build a classification model to identify **unhappy customers** early, allowing t
 - Handling imbalanced classes
 - Removing low-variance features
 - Preventing overfitting due to high feature count
-- 
+
 ---
 
 ## Results 
