@@ -1,6 +1,40 @@
-# ML-santander-customer-satisfaction
+# Santander Customer Satisfaction Dataset
 
+## Overview
+The **Santander Customer Satisfaction** dataset comes from a Kaggle machine learning competition. The goal is to predict whether a customer is **satisfied or dissatisfied** with Santander Bank services based on anonymized customer features.
 
+## Objective
+Build a classification model to identify **unhappy customers** early, allowing the bank to take proactive actions to improve customer retention.
+
+---
+
+## Dataset Description
+- Each row represents a **customer**
+- Features are **anonymized numerical variables**
+- The target variable is **`TARGET`**:
+  - `0` → Satisfied customer
+  - `1` → Dissatisfied customer
+
+---
+
+## Key Characteristics
+- High-dimensional dataset (hundreds of features)
+- Strong **class imbalance** (more satisfied than dissatisfied customers)
+- No missing values, but many **constant and redundant features**
+
+## Use Cases
+- Customer churn prediction
+- Feature selection and dimensionality reduction
+- Binary classification model evaluation
+
+## Common Challenges
+- Handling imbalanced classes
+- Removing low-variance features
+- Preventing overfitting due to high feature count
+- 
+---
+
+## Results 
 **1. PCA - 2 components:**
 
 **Random Forest Classifier Used:**
