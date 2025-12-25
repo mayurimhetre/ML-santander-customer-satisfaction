@@ -22,15 +22,15 @@ Build a classification model to identify **unhappy customers** early, allowing t
 - Strong **class imbalance** (more satisfied than dissatisfied customers)
 - No missing values, but many **constant and redundant features**
 
-## Use Cases
-- Customer churn prediction
-- Feature selection and dimensionality reduction
-- Binary classification model evaluation
-
 ## Common Challenges
 - Handling imbalanced classes
 - Removing low-variance features
 - Preventing overfitting due to high feature count
+
+## Implementation
+
+PCA (Principal Component Analysis) is a dimensionality reduction technique that transforms correlated features into a smaller set of uncorrelated components while preserving most of the data variance.
+In this dataset, PCA helps reduce noise and redundancy, improving model efficiency and reducing overfitting.
 
 ---
 
